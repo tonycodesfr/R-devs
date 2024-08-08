@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    width: 100%;
+    color: white;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+header {
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(7, 7, 70);
+    position: relative;
+
+}
+span {
+    margin-left: 10px;
+}
+.navigation {
+    display: flex;
+}
+.logo {
+    display: flex;
+    padding-top: 10px;
+    width: 20vw;
+    /* border: 1px solid black; */
+    justify-content: center;
+}
+.logo h1 {
+    margin: 10px;
+}
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+     width: 60vw; 
+    /* border: 1px solid black; */
+}
+.links {
+    color: white;
+}
+.second-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    /* border: 1px solid black; */
+}
+.header-btn {
+    margin-left: 10px;
+    background-color: lightblue;
+    border: none;
+    padding: 10px 20px;
+}
+.section1 {
+    width: 50vw;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    padding: 30px;
+    /* border: 1px solid red; */
+}
+.education-para {
+    font-size: 1.4rem;
+    color: yellow;
+}
+.section2-header {
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 20px;
+}
+.Presenting-para {
+    font-size: 1.4rem;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+.call-to-action {
+    font-size: 1.2rem;
+    display: flex;
+    width: 22vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.explore-btn {
+    /* font-size: rem; */
+    padding: 10px 20px;
+    border: none;
+    background-color: lightblue;
+}
+.arrow-btn {
+    background-color: rgb(3, 3, 90);
+    color: white;
+    border: 1px solid white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 1.3em;
+}
+.man {
+    height: 550px;
+    width: 950px;
+    position: relative;
+    bottom: 359px;
+    left: 450px;
+}
+.section2 {
+    position: relative;
+    left: 20%;
+    top: -70px;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    padding: 30px;
+    color: black;
+    box-shadow: 2px 2px 10px black;
+}
+.review {
+    display: flex;
+}
+.review h1 {
+    margin-bottom: 10px;
+}
+.review p {
+    color: grey;
+}
+.comments {
+    margin-right: 70px;
+}
+.rating-stars {
+    margin-bottom: 10px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+li {
+    background-color: rgb(210, 210, 210);
+    padding: 10px 15px;
+    border-radius: 20px;
+}
